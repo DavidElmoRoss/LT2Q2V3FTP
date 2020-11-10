@@ -28,7 +28,7 @@ int main(void)
 {
     PIR.fall(&LOW);                         // connect code at LOW to IRQ
     flash.clear();
-    flash.setRGB(0xff,0xff,0xff);           // set LCD to white
+    flash.setRGB(0x00,0x00,0xff);           // set LCD to white
     for(;;)                                 // loop forever
     {
         flash.clear();
