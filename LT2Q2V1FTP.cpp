@@ -1,7 +1,3 @@
-/*
-
-*/
-
 // Include Section
 #include "mbed.h"                           
 #include "Grove_LCD_RGB_Backlight.h"        
