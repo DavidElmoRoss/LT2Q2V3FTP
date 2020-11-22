@@ -4,20 +4,20 @@
 
 // Hardware Definition Section
 Grove_LCD_RGB_Backlight greg(D14,D15);     
-InterruptIn ABC(D6);                        
+InterruptIn merlin(D6);                        
 
 // Global Variables
 short motion_detected=0;                    
 
 // Asynchronous Interrupt Service Routine
-void TRY(void)
+void flipper(void)
 {
    motion_detected=1;                      
 } 
 
 int main(void)
 {
-                            // add code to activate interrupt on falling edge 
+                        // add code to activate interrupt on falling edge 
     greg.clear(); 
     greg.setRGB(0x00,0x00,0xff);     
     for(;;)                                 
