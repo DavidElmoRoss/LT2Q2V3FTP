@@ -1,0 +1,7 @@
+^BUILD$
+^compile_commands.json$
+^.mbed$
+^.clangd$
+^.cache$
+^mbed$
+^Grove_LCD_RGB_Backlight$
